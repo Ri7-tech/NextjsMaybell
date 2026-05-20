@@ -302,12 +302,12 @@ export default function Header() {
             >
               Home
             </a>
-            <a
+            <Link
               className="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
-              href="catalog.html"
+              href="/Categories"
             >
               Catalog
-            </a>
+            </Link>
             <a
               className="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
               href="about-us.html"

@@ -1,10 +1,11 @@
 import React from "react";
-import MainLayout from "./Common/MainLayout";
 
 export default function Nopage() {
   return (
     <>
-      <MainLayout>Page not foundd</MainLayout>
+      <div className="">
+        <h1>No Page is not found</h1>
+      </div>
     </>
   );
 }
