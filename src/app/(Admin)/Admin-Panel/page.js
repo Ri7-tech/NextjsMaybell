@@ -12,9 +12,9 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <MainLayout>
-        <BestSelling />
-      </MainLayout>
+      <div>
+        <h1>Mybell Home Page</h1>
+      </div>
     </>
   );
 }
